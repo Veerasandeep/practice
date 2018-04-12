@@ -21,7 +21,7 @@ public class NewTest {
   @Test
   public void f() throws Exception 
   {
-	  
+	  // TO launch site
 	  driver.get("http://www.google.co.in");
 	  Thread.sleep(10000);
 	  driver.findElement(By.name("q")).sendKeys("Kalam");
